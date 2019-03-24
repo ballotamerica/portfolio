@@ -1,0 +1,44 @@
+@import "bulma";
+
+// Page Color Scheme
+.is-ba-blue {
+  background-color: #0b4e84;
+}
+
+.is-secondary-blue {
+  background-color: #4f86c6;
+}
+
+.is-whitesmoke {
+  background-color: whitesmoke;
+}
+
+// Nav
+.navbar-brand img {
+  height: 80px !important;
+  padding: 1rem 2rem;
+}
+
+// Portfolio
+.row {
+  padding-bottom: 5rem;
+}
+
+.pf-heading {
+  padding-top: 1rem;
+}
+
+span.pf-images img {
+  height: auto;
+  width: 30%;
+  padding-left: 1rem;
+}
+
+// Columns
+.column {
+  padding: 2rem;
+
+  .row {
+    height: 10rem;
+  }
+}
